@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Backedend for playTube similar kind of yotube platform",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev": "nodemon -r dotenv/config --expremental-json-modules src/index.js"
+    "dev": "nodemon -r dotenv/config src/index.js"
   },
   "keywords": [
     "Backend",
