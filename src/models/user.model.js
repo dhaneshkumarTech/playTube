@@ -36,8 +36,7 @@ const userSchema = Schema(
             type: String
         },
         refreshToken: {
-            type: String,
-            required: true, 
+            type: String
         },
         watchHistory: [
             {
